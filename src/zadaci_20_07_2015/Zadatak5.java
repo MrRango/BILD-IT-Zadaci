@@ -5,13 +5,13 @@
 
 package zadaci_20_07_2015;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.Collections;
 import java.util.Scanner;
-
+ 
 public class Zadatak5 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		
 		ArrayList<Integer> list = new ArrayList <>();
 		Scanner in = new Scanner(System.in);
