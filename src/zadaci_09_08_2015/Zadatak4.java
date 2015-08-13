@@ -34,13 +34,12 @@ public class Zadatak4 {
 	public static void main(String[] args) {
 		
 		Account account = new Account(1122, 20000);	//pravljenje novog objekta account
-		account.setAnnualInterestRate(4.5);  //postavljanje godisnje kamatne stope
+		Account.setAnnualInterestRate(4.5);  //postavljanje godisnje kamatne stope
 		account.withdraw(2500);   //podizanje sa racuna 2500
 		account.deposit(3000);	//polaganje na racun 3000
 		//stampanje rezultata
 		System.out.println("Balans: " + account.getBalance() + "\nMjesecna rata: " + account.getMonthlyInterest() 
 				+ "\nDatum otvaranja racuna: " + account.getDateCreated());
-
 	}
 
 }
